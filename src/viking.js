@@ -51,4 +51,25 @@ class Saxon extends Soldier {
 }
 
 // War
-class War {}
+class War {
+    constructor(){
+        this.vikingArmy = []
+        this.saxonArmy = []
+    }
+    addViking(viking){
+        
+    }
+
+    addSaxon(Saxon){}
+
+    vikingAttack(){}
+
+    saxonAttack(){}
+
+    showStatus(){
+        if(!saxonArmy){
+            return `Vikings have won the war of the century!`
+        }
+        
+    }
+}
