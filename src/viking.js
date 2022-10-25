@@ -58,11 +58,20 @@ class War {
     }
     addViking(viking){
         
+        this.vikingArmy.push(viking)
     }
 
-    addSaxon(Saxon){}
+    addSaxon(Saxon){
+      this.saxonArmy.push(Saxon)
+    }
 
-    vikingAttack(){}
+    vikingAttack(){
+      
+      const viking = Math.random()*100
+      if(damage>0){
+        viking -= this.health
+      }
+    }
 
     saxonAttack(){}
 
